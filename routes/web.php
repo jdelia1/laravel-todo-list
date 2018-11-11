@@ -15,3 +15,8 @@ Route::resource('task', 'TasksController');
 Route::get('/', function() {
 	return redirect()->route('task.index');
 });
+
+// Color Testing Palette
+Route::get('/test', function() {
+	return view('layouts.test');
+});

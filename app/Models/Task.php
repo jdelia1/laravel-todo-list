@@ -15,8 +15,4 @@ class Task extends Model
 	public function getDates() {
 		return array('created_at', 'updated_at', 'due_date');
 	}
-
-    //created at (5 minutes ago)
-
-    //updated at
 }
